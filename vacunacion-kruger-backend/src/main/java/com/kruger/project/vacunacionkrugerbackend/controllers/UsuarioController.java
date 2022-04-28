@@ -16,7 +16,7 @@ public class UsuarioController {
     private UsuarioDao usuarioDao;
 
     @RequestMapping (value = "usuario/{id}")
-    public Usuario getUsuarioById(@PathVariable int id){
+    public Usuario getUsuarioById(@PathVariable long id){
         return usuarioDao.getUsuarioById(id);
 
     }
