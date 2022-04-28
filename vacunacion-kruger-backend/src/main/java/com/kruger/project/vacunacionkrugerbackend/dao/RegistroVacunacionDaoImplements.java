@@ -22,7 +22,7 @@ public class RegistroVacunacionDaoImplements implements RegistroVacunacionDao{
     }
 
     @Override
-    public RegistroVacunacion getRegistroVacuancionById(int id) {
+    public RegistroVacunacion getRegistroVacuancionById(long id) {
         return entityManager.find(RegistroVacunacion.class,id);
     }
 
