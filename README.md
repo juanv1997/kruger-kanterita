@@ -1,4 +1,4 @@
-## Reto Kruger-Kanterita
+## KRUGER CHALLENGE 
 ## Sistema de registro de vacunación de los empleados
 
 
