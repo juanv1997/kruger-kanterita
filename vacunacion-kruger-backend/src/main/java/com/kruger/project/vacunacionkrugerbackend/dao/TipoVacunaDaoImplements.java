@@ -22,7 +22,7 @@ public class TipoVacunaDaoImplements implements TipoVacunaDao{
     }
 
     @Override
-    public TipoVacuna getTipoVacunaById(int id) {
+    public TipoVacuna getTipoVacunaById(long id) {
         return entityManager.find(TipoVacuna.class,id);
     }
 
