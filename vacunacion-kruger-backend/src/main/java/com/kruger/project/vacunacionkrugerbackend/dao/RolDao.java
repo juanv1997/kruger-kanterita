@@ -7,7 +7,7 @@ import java.util.List;
 public interface RolDao {
 
 
-    Rol getRolById(int id);
+    Rol getRolById(long id);
 
     List<Rol> getRoles();
 
