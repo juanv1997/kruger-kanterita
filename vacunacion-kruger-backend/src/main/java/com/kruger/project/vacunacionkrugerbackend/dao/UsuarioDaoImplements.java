@@ -16,7 +16,7 @@ public class UsuarioDaoImplements implements UsuarioDao{
     EntityManager entityManager;
 
     @Override
-    public Usuario getUsuarioById(int id) {
+    public Usuario getUsuarioById(long id) {
         return entityManager.find(Usuario.class, id);
     }
 
