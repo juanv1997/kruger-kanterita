@@ -16,7 +16,7 @@ public class RolController {
     private RolDao rolDao;
 
     @RequestMapping (value = "rol/{id}")
-    public Rol getRolById(@PathVariable int id){
+    public Rol getRolById(@PathVariable long id){
         return rolDao.getRolById(id);
 
     }
