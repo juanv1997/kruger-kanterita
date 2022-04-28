@@ -29,7 +29,7 @@ Para el backend de la aplicación de utilizó el framework Spring Boot, con el c
 
 En el frontend se utilizó la librería de JavaScript  , React, la cual nos permite crear interfaces reactivas, intuitiva y con una alta UX (User Experience).Además se utilizá también la librería Material UI, la cual nos pone a disposición una gran cantidad de componentes para un mejor desarrollo de lado del cliente.
 
-#### Capa de datos(persistenmcia)
+#### Capa de datos(persistencia)
 
 Se utilizó un enfoque CodeFirst, donde, para la creación de la base de datos se codifica un modelo con los atributos y relaciones que tendrá la tabla y al compilar el proyecto, se crean las tablas establecidas en una base datos que se haya configurado en el proyecto.
 
