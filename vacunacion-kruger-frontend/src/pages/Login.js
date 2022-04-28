@@ -74,8 +74,7 @@ const LoginPage = () => {
         let _usuarioService = new usuarioService();
         let response = await _usuarioService.login(form);
         if(response.data === "OK"){
-            console.log("todo blen");
-
+            
         }
         else{
           setMessageError({
