@@ -17,7 +17,7 @@ public class RegistroVacunacionController {
     private RegistroVacunacionDao registroVacunacionDao;
 
     @RequestMapping (value = "registrovacunacion/{id}")
-    public RegistroVacunacion getRegistroVacuancionById(@PathVariable int id){
+    public RegistroVacunacion getRegistroVacuancionById(@PathVariable long id){
         return registroVacunacionDao.getRegistroVacuancionById(id);
 
     }
