@@ -16,7 +16,7 @@ public class TipoVacunaController {
     private TipoVacunaDao tipoVacunaDao;
 
     @RequestMapping (value = "tipovacuna/{id}")
-    public TipoVacuna getTipoVacunaById(@PathVariable int id){
+    public TipoVacuna getTipoVacunaById(@PathVariable long id){
         return tipoVacunaDao.getTipoVacunaById(id);
 
     }
