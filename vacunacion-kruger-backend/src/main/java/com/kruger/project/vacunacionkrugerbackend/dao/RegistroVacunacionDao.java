@@ -7,7 +7,7 @@ import java.util.List;
 public interface RegistroVacunacionDao {
     List<RegistroVacunacion> getRegistrosVacunacion();
 
-    RegistroVacunacion getRegistroVacuancionById(int id);
+    RegistroVacunacion getRegistroVacuancionById(long id);
 
     void saveRegistroVacunacion(RegistroVacunacion registro);
 }
