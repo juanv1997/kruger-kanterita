@@ -8,7 +8,7 @@ public interface TipoVacunaDao {
 
     List<TipoVacuna> getTipoVacunas();
 
-    TipoVacuna getTipoVacunaById(int id);
+    TipoVacuna getTipoVacunaById(long id);
 
     void saveTipoVacuna(TipoVacuna tipoVacuna);
 }
