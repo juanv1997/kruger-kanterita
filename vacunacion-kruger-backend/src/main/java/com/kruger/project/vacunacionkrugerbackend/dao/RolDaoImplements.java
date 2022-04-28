@@ -16,7 +16,7 @@ public class RolDaoImplements implements RolDao{
     EntityManager entityManager;
 
     @Override
-    public Rol getRolById(int id) {
+    public Rol getRolById(long id) {
         return entityManager.find(Rol.class,id);
     }
 
