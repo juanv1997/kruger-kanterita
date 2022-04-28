@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface UsuarioDao {
 
-    Usuario getUsuarioById(int id);
+    Usuario getUsuarioById(long id);
 
     List<Usuario> getUsuarios();
 
